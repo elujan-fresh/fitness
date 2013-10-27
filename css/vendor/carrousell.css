@@ -1,0 +1,51 @@
+.image_carousel {
+	padding: 15px 0 15px 40px;
+	position: relative;
+}
+.image_carousel .container {
+	border: 1px solid #ccc;
+	background-color: white;
+	display: block;
+	float: left;
+	width: 283px;
+	height: 210px;
+}
+.image_carousel .container p{
+	position: relative;
+	text-align: center;
+	top: 5px;
+}
+.image_carousel .container img{
+	height: 210px;
+}
+.caroufredsel_wrapper{
+	height: 247px !important;
+	width: 855px !important;
+}
+.image_carousel{
+	width: 855px !important;
+	margin-left: 25px;
+}
+a.prev, a.next {
+	/*(background: url(../images/miscellaneous_sprite.png) no-repeat transparent;*/
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 103px;
+}
+a.prev {			left: 0px;
+					background-position: 0 0; }
+a.prev:hover {		background-position: 0 -50px; }
+a.prev.disabled {	background-position: 0 -100px !important;  }
+a.next {			right: 0px;
+					background-position: -50px 0; }
+a.next:hover {		background-position: -50px -50px; }
+a.next.disabled {	background-position: -50px -100px !important;  }
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}

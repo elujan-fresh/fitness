@@ -1,0 +1,508 @@
+@media(min-width: 380px) and (max-width: 479px){
+	.about-images .span6, .about-images {
+		text-align: center !important;
+	}
+	#about-lady img{
+		width: 237px;
+		height: 320px;
+	}
+	#arrow-left{
+		height: 13px;
+		width: 13px;
+	}
+	#arrow-right{
+		height: 13px;
+		width: 13px;
+	}
+	#arrow-left-slider{
+		height: 13px;
+		width: 13px;
+	}
+	#arrow-right-slider{
+		height: 13px;
+		width: 13px;
+	}
+	#content-videos{
+		height: 295px;
+	}
+	#connect-form{
+		height: 180px;
+	}
+	#email{
+		font-size: 11px;
+	}
+	.form .form-input{
+		width: 90%;
+	}
+	#header-logo{
+		height: 95px;
+		margin-left: 10px;
+		width: 80px;
+	}
+	#img-lady{
+		text-align: center;
+	}
+	#img-lady img{
+		height: 300px;
+	}
+	#image-video img{
+		height: 189px !important;
+		width: 300px !important;
+	}
+	#image-video p{
+		font-size: 12px;
+		margin-left: 10px;
+	}
+	#images-videos .span4{
+		margin-top: 10px;
+		text-align: center;
+	}
+	#menu-phone{
+		margin-top: -13px;
+		margin-right: 10px;
+	}
+	
+	#title-videos , #title-testimonials , .title {
+		height: 23px;	
+	}
+	#title-videos p , #title-testimonials p , .title p{
+		font-size: 20.36pt;
+		left: 10px;
+		top: 5px;
+	}
+	#testimonials-info{
+		height: 160px;
+	}
+	#testimonials-info1{
+		height: 220px;
+	}
+	#testimonials-info2{
+		height: 200px;
+	}
+	#testimonials-info3{
+		height: 345px;
+	}
+	#testimonials-info4{
+		height: 206px;
+	}
+	#testimonials-info5{
+		height: 236px;
+	}
+	#testimonials-right,.testimonials-info{
+		font-size: 11px;
+	}
+	#videos-subtitle, #publicity-title, .subtitle{
+		font-size: 12px;
+		height: 25px;
+		margin-left: 10px;
+	}
+	#welcome-footer{
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.container-center{
+		width: 100%;
+	}
+	.column{
+		width: 33%;
+	}
+	.column2{
+		width: 100%;
+	}
+	.header{
+		height:61px;
+	}	
+	.header .container-center p {
+		right: 10px;
+	}
+	.header-index{
+		-moz-background-size:100% 150px; /* Firefox 3.6 */
+		background-size:100% 150px;
+		background-repeat:no-repeat;
+		height: 150px;
+	}
+	.header-videos , .header-testimonials , .header-coaching, .header-press, .header-training, .header-about, .header-shop{
+		-moz-background-size:100% 54px; /* Firefox 3.6 */
+		background-size:100% 54px;
+		background-repeat:no-repeat;
+		height: 54px;
+	}
+	.info-subtitle{
+		font-size: 14px;
+	}
+	.info{
+		font-size: 12px;
+	}
+	.li img{
+		height: 20px;
+		width: 20px;
+	}
+	.mini{
+		font-size: 10px;
+	}
+	.testimonials-font{
+		font-size: 13px;
+	}
+	.shop-info-cost{
+		font-size: 19pt;
+		line-height: 20px;
+	}
+	.shop-info-title{
+		font-size: 12pt;
+		line-height: 20px;
+	}
+	.shop-info-text{
+	    line-height: 16px;
+		font-size: 8.96pt;
+	}
+	.shop-left{
+		width: 100%;
+	}
+	.shop-right{
+		width: 100%;
+	}
+	.slide img{
+		width: 73px;
+		height: 43px;
+	}
+	#frame-video{
+		width: 100%;
+		height: 192px;
+	}
+	#title-index p, .subtitle{
+		font-size: 15.36pt;
+	}
+	.info, .item-footer{
+		font-size: 8.96pt;
+	}
+	.mini{
+		font-size: 9pt;
+	}
+	#footer-copy-right p{
+		font-size: 7.68pt;
+	}
+	
+	.footer-separator{
+		display: none;
+	}
+	#form-information{
+		margin-left: 10px;
+	}
+	#form-logo-twitter{
+		position: absolute;
+		margin-top: -18px;
+		margin-left: 110px;
+	}
+	#form-logo-twitter img{
+		width: 25px;
+		height: 25px;
+	}
+	#join-label #form-join{
+		font-size: 12pt;
+		margin-left: 10px;
+	}
+	#join-input .form-input-small {
+		max-width: 234px;
+		height: 30px !important;
+	}
+	#join-input .form-input {
+		font-size: 10pt !important;
+	}
+	#join-input{
+		text-align: center;
+	}
+	#join-button  #button-go{
+		width: 30px;
+		height: 43px;
+		margin-right: 37px !important;
+		margin-top: 3px !important;
+	}
+	#join-button{
+		text-align: right;
+	}
+	#form-logos{
+	margin-top: 30px;
+	}
+	.header-index #banner-lady {
+		width: 265px;
+		height: 150px;
+		margin-left: 35px;
+		margin-top: -24px;
+	}
+	.header-index  #banner-points{
+		width: 31.5px;
+		height: 10px;
+	}
+	#banner-title{
+		top: 10%;
+		left: 51%;
+		line-height: 7px;
+	}
+	.banner-bold, .banner-regular{
+		font-size: 11.4pt;
+		
+	}
+	.form{
+		margin-top: 40px;
+	}
+	.form img{
+		top: 10px;
+		width: 56px;
+		height: 56px;
+	}
+	#join-label{
+		width: 100%;
+	}
+	#join-input{
+		width: 50%;
+		margin-top: 10px;
+	}
+	#join-button{
+		width: 20%;
+		margin-top: 5px;
+	}
+	
+	/*the last changes */
+	.caroufredsel_wrapper {
+		width: 185px !important;
+		height: 200px !important;
+	}
+	.image_carousel {
+		margin-left: 25px;
+	}
+	.image_carousel .container {
+		width: 182px;
+		height: 155px;
+	}
+	.image_carousel .container img {
+		width: 182px;
+		height: 155px;
+	}
+	a.prev, a.next {
+		width: 30px;
+		height: 30px;
+		top: 140px;
+	}
+	.item-center {
+		margin-left: 18px;
+	}
+	#index-images{
+		height: 365px;
+	}
+	#index-images .span6 {
+		text-align: center !important;
+	}
+	#index-images img{
+		max-width: 323px;
+		max-height: 177px;
+		width: 323px;
+		height: 177px;
+	}
+	#index-info-1 {
+		height: 50px;
+	}
+	#index-info2 {
+		height: 125px;
+	}
+	#join {
+		height: 255px !important;
+	}
+	#publicity {
+		background-color: #FFFFFF;
+		height: 187px;
+	}
+	#form-information-twitter {
+		width: 16%;
+	}
+	
+	/*start about*/
+	#about-info-right {
+		margin-left: 0px;
+	}
+	#about-lady {
+		width:100%;
+		text-align: center;
+	}
+	#container-calendar {
+		width: 320px;
+	}
+	#container-calendar {
+		margin-top: 10px;
+	}
+	#calendar-info {
+		font-size: 9pt;
+	}
+	#about-info1 {
+		height: 125px;
+	}
+	#about-calendar {
+		height: 110px;
+	}
+	#about-calendar .span5 {
+		margin-top: -10px;
+	}
+	#about-images {
+		height: 365px;
+	}
+	#about-images img{
+		width: 323px;
+		height: 177px;
+		max-width: 323px;
+		height: 177px;
+	}
+	.header-main p {
+		font-size: 17pt;
+		top: 14px;
+		margin-top: 0px;
+		position: relative;
+	}
+	.header-main {
+		-moz-background-size: 100% 80px;
+		background-size: 100% 80px;
+		height: 80px;
+	}
+	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, #blog-title, #contact-title{
+		height: 45px;
+	}
+	.italic-sans {
+		font-size: 10pt;
+	}
+	#about-info-subtitle {
+		font-size: 10pt;
+	}
+	
+	/*start ttraining */
+	#training-info {
+		margin-left: 0px;
+	}
+	#training-past{
+		height: 130px;
+	}
+	#training-info1 {
+		height: 380px;
+	}
+	#training-photos {
+		height: 400px;
+	}
+	#training-image-lady {
+		width: 100%;
+	}
+	#training-info2 {
+		height: 390px;
+	}
+	#training-info3 {
+		height: 285px;
+	}
+	#training-want {
+		height: 75px;
+	}
+	.form{
+		text-align: center;
+	}
+	#form-training .form-input-small{
+		width: 300px !important;
+	}
+	#form-training-message .form-input-large {
+		width: 300px !important;
+	}
+	#form-training #form-trainint-name{
+		margin-top: 20px;
+		margin-left: 0px
+	}
+	#form-training #form-training-address{
+		margin-left: 3px
+	}
+	#form-training #form-training-phone {
+		margin-left: 0px;
+	}
+	#form-training, #form-training-message #form-training-message-input{
+		margin-left: 0px;
+	}
+		/*start coaching*/
+	#img-lady{
+		width: 100%;
+	}
+	#coaching-info {
+		margin-left: 0px;
+	}
+	.form-coaching .form-input-small {
+		width: 300px !important;
+	}
+	#form-coaching-name{
+		margin-left: 0px !important;
+	}
+	#form-coaching-address{
+		margin-left: 0px;
+	}
+	#form-coaching-phone{
+		margin-left: 0px !important;
+	}
+	#form-coaching-submit {
+		margin-left: 25px;
+	}
+	.form-coaching img {
+		margin-left: -12px;
+	}
+	.form-coaching{
+		height:320px;
+		text-align: center;
+	}
+	#coaching-information {
+		height: 110px;
+	}
+	#squared-promo-left{
+		width: 100%;
+		text-align: center !important;
+	}
+	#squared-promo-right{
+		width: 100%;
+		text-align: center !important;
+		margin-left: 0%
+	}
+	#squared-promo-center{
+		width: 100%;
+		text-align: center !important;
+	}
+	.info-subtitle-coaching {
+		font-size: 13.5pt;
+	}
+	
+	/*start testimonials*/
+	#testimonials-info1 {
+		height: 280px;
+	}
+	#testimonials-info2 {
+		height: 380px;
+	}
+	#testimonials-info3{
+		height: 380px;
+	}
+	#testimonials-info4 {
+		height: 560px;
+	}
+	#testimonials-info5 {
+		height: 320px;
+	}
+	#testimonials-info6 {
+		height: 330px;
+	}
+	.testimonials-subtitle{
+		height: 50px;
+	}
+	/*start press*/
+	.press-container-image{
+		text-align: center;
+		width: 50%;
+	}
+	
+	/*start video */
+	#carousel-video a.prev,#carousel-video a.next {
+		top: 330px;
+	}
+	.header-main p {
+		margin-right: 45px;
+	}
+	
+	
+}

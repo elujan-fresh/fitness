@@ -1,0 +1,346 @@
+@media(min-width: 768px) and (max-width: 1023px){
+	#arrow-left{
+		height: 27px;
+		width: 27px;
+	}
+	#arrow-right{
+		height: 27px;
+		width: 27px;
+	}
+	#arrow-left-slider{
+		height: 27px;
+		width: 27px;
+		margin-left: -17px;
+	}
+	#arrow-right-slider{
+		height: 27px;
+		width: 27px;
+		margin-right: -25px;
+	}
+	#content-videos{
+		height: 535px;
+	}
+	#email{
+		font-size: 9px;
+	}
+	#form-footer{
+		font-size: 12px;
+		left: 20px;
+	}
+	#form-information{
+		font-size: 12px;
+		line-height: 13px;
+	}
+	
+	#header-logo{
+		width: 91px;
+		height: 117px;
+		
+	}
+	#image-video img{
+		width: 710px !important;
+		height: 440px !important;
+	}
+	#image-video p{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+	#img-lady img{
+		height: 390px;
+	}
+	#menu-phone{
+		margin-top: -3px;
+		margin-right: 20px;
+	}
+    #menu-items {
+		margin-top: 5px;
+	}
+	#menu-items table a{
+		font-size: 15px;
+		margin-right: 20px;
+	}
+	#testimonials-info{
+		height: 160px;
+	}
+	#testimonials-info1{
+		height: 170px;
+	}
+	#testimonials-info2{
+		height: 166px;
+	}
+	#testimonials-info3{
+		height: 235px;
+	}
+	#testimonials-info4{
+		height: 166px;
+	}
+	#testimonials-info5{
+		height: 166px;
+	}
+	#testimonials-font{
+		font-size: 14px;
+	}
+	#testimonials-right, .testimonials-info{
+		font-size: 12px;
+	}
+	#title-videos ,#connect , #title-testimonials {
+		height: 46px;	
+	}
+	#title-videos p , #title-testimonials p , .title p{
+		top: 35px;
+	}
+	#traininig-image img{
+		height: 330px;
+	}
+	#welcome-footer{
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#videos-subtitle, .subtitle{
+		font-size: 16px;
+		margin-left: 20px;
+	}
+	#video-slider{
+		width: 640px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.container-center{
+		width: 90%;
+	}
+	.header{
+		height: 61px;
+	}
+	.header-index{
+		-moz-background-size:100% 200px; /* Firefox 3.6 */
+		background-size:100% 200px;
+		background-repeat:no-repeat;
+		height: 200px;
+	}
+	.header-videos , .header-testimonials , .header-coaching, .header-press, .header-training, .header-about, .header-shop{
+		-moz-background-size:100% 73px; /* Firefox 3.6 */
+		background-size:100% 73px;
+		background-repeat:no-repeat;
+		height: 73px;
+	}
+	.header-index{
+		-moz-background-size:100% 194px; /* Firefox 3.6 */
+		background-size:100% 194px;
+		#background-repeat:no-repeat;
+		height: 194px;
+	}
+	.header .container-center p {
+		right: 20px;
+	}
+	.info-subtitle{
+		font-size: 14px;
+	}
+	.li img{
+		width: 15px;
+		height: 15px;
+	}
+	.slide img{
+		width: 146px;
+		height: 85px;
+	}
+	.shop-info-cost{
+		font-size: 19pt;
+		line-height: 20px;
+	}
+	.shop-info-title{
+		font-size: 12pt;
+		line-height: 20px;
+	}
+	.shop-info-text{
+	    line-height: 16px;
+		font-size: 8.96pt;
+	}	
+	.slide{
+		width: 200px !important;
+		margin-left: 25px;
+	}
+	#title-index p, .subtitle{
+		font-size: 15.36pt;
+	}
+	.info, .item-footer{
+		font-size: 8.96pt;
+	}
+	.mini{
+		font-size: 11.52pt;
+	}
+	#footer-copy-right p{
+		font-size: 7.68pt;
+	}
+	
+	#form-information{
+		font-size: 9pt;
+	}
+	.header-index  #banner-lady{
+		width: 480px;
+		height: 194px;
+		float: center;
+	}
+	.header-index .container-center{
+		text-align: center;
+	}
+	#banner-title{
+		top: 16%;
+		left: 45%;
+		line-height: 20px;
+	}
+	.banner-bold, .banner-regular{
+		font-size: 24.4pt;
+		
+	}
+	.form-input-small {
+		width: 152px;
+	}
+	#about-lady img{
+		max-width: 237px;
+		max-height: 319px;
+	}
+	.bx-viewport{
+		height: 195px !important;
+	}
+	.bx-viewport img{
+		height: 150px !important;
+		width: 198px;
+	}
+	#join{
+		height: 150px !important;
+	}
+	#form-logos, #form-info{
+		margin-top: 25px;
+	}
+	#form-footer{
+		width: 100%;
+	}
+	.footer-separator{
+		display: none;
+	}
+	
+	/*the last changes */
+	/*start index*/
+	.caroufredsel_wrapper {
+		width: 570px !important;
+	}
+	a.next {
+		right: -25px;
+	}
+	#index-images img{
+		max-width: 329px;
+		max-height: 188px;
+		min-width: 329px;
+		min-height: 188px;
+		width: 329px;
+		height: 188px;
+	}
+	#index-images {
+		height: 185px;
+	}
+	#footer-connect p {
+		top: 10px;
+	}
+	/*start about*/
+	#about-info-right {
+		margin-left: 0px;
+	}
+	#about-lady {
+		width: 290px;
+	}
+	#container-calendar {
+		width: 380px;
+	}
+	#calendar-info {
+		font-size: 11pt;
+	}
+	#about-info1 {
+		height: 58px;
+	}
+	#about-images {
+		height: 200px;
+	}
+	#about-images img{
+		width: 329px;
+		height: 180px;
+		max-width: 329px;
+		height: 180px;
+	}
+	/*start ttraining */
+	#training-info {
+		margin-left: 0px;
+	}
+	#training-image-lady {
+		width: 340px;
+	}
+	#training-info3 {
+		height: 210px;
+	}
+	#training-info2 {
+		height: 275px;
+	}
+	#training-info1 {
+		height: 270px;
+	}
+	#form-training .form-input-small{
+		width: 145px !important
+	}
+	#form-training #form-training-phone {
+		margin-left: -7px
+	}
+	#form-traininig-submit .form-submit{
+		margin-left: -17px;
+	}
+	
+	/*start coaching*/
+	#coaching-info {
+		margin-left: 0px;
+	}
+	.form-coaching .form-input-small {
+		width: 155px !important;
+	}
+	#form-coaching-submit {
+		margin-left: 25px;
+	}
+	.form-coaching img {
+		margin-left: -12px;
+	}
+	
+	/*Start testimonials */
+	#testimonials-info3{
+		height: 190px;
+	}
+	#testimonials-info4 {
+		height: 225px;
+	}
+	
+	/*start press*/
+	.press-container-image{
+		text-align: center;
+		width: 25%;
+	}
+	
+}
+@media(min-width: 807px){
+	
+}
+@media(min-width: 850px){
+	#join{
+		height: 100px;
+	}
+	.form-input-small {
+		width: 169px;
+	}
+}
+@media(min-width: 980px) and (max-width: 1023px){
+	#banner-title{
+		top: 13.5%;
+		left: 35%;
+		line-height: 20px;
+	}
+	.form-input-small {
+		width: 201px;
+	}
+}
