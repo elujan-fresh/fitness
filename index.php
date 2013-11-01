@@ -1,17 +1,20 @@
 <?php include "header.php" ?>
-		<div class="row-fluid">
-			<div class="span12 header-index">
-				<div class="container-center">
-					<img src="img/index/lady_1.png"  id="banner-lady" />
-				</div>
-			</div>
+		<div class="">
+			<div class=" header-index">
+				<a href="index.php" id="location-banner-lady"><img src="img/index/banner1.jpg" border="0" usemap="#banner-ladyMap" id="banner-lady" /></a>
+                <map name="banner-ladyMap">
+                  <area shape="rect" coords="993,342,1005,354" id="banner-button1">
+                  <area shape="rect" coords="1015,343,1028,353" id="banner-button2">
+                  <area shape="rect" coords="1040,342,1050,353"  id="banner-button3">
+                </map>
+            </div>
 		</div>
 		
 		<div id="index-margin-welcome"></div>
 		<div id="index-margin-welcome2">
 			<div class="container-center">
 				<div id="title-index" class="subtitle">
-					<p>WELCOME</p>
+					<p onclick="myFunction()">WELCOME</p>
 				</div>
 			</div>
 		</div>
@@ -25,12 +28,10 @@
 					<div class="container"><img src="img/index/image_01.png" alt="" /><p><a href="shop.php" class="mini">SHOP</a></p></div>
 					<div class="container"><img src="img/index/image_02.png" alt="" /><p><a href="http://life.gaiam.com/" class="mini">COMMUNITY</a></p> </div>
 					<div class="container"><img src="img/index/image_03.png" alt="" /><p><a href="registration.php" class="mini">MEMBERSHIP</a></p> </div>
-					<div class="container"><img src="img/index/image_02.png" alt="" /><p><a href="http://life.gaiam.com/" class="mini">COMMUNITY</a></p> </div>
-					<div class="container"><img src="img/index/image_03.png" alt="" /><p><a href="registration.php" class="mini">MEMBERSHIP</a></p> </div>
-					<div class="container"><img src="img/index/image_01.png" alt="" /><p><a href="shop.php" class="mini">SHOP</a></p> </div>
-					<div class="container"><img src="img/index/image_03.png" alt="" /><p><a href="registration.php" class="mini">MEMBERSHIP</a></p> </div>
-					<div class="container"><img src="img/index/image_01.png" alt="" /><p><a href="shop.php" class="mini">SHOP</a></p> </div>
-					<div class="container"><img src="img/index/image_02.png" alt="" /><p><a href="http://life.gaiam.com/" class="mini">COMMUNITY</a></p> </div>
+					<div class="container"><img src="img/index/image_04.png" alt="" /><p><a href="coaching.php" class="mini">COACHING</a></p></div>
+					<div class="container"><img src="img/index/image_05.png" alt="" /><p><a href="training.php" class="mini">TRAINING</a></p> </div>
+					<div class="container"><img src="img/index/image_06.png" alt="" /><p><a href="blog.php" class="mini">BLOG</a></p> </div>
+					
 				</div>
 		
 				<div class="clearfix"></div>

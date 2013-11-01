@@ -110,6 +110,9 @@
 	.container-center{
 		width: 90%;
 	}
+	.container-center-title{
+		width: 660px;
+	}
 	.header{
 		height: 61px;
 	}
@@ -133,6 +136,9 @@
 	}
 	.header .container-center p {
 		right: 20px;
+	}
+	.item-center {
+		margin-left: 20px;
 	}
 	.info-subtitle{
 		font-size: 14px;
@@ -178,9 +184,12 @@
 		font-size: 9pt;
 	}
 	.header-index  #banner-lady{
-		width: 480px;
+		width: 768px;
 		height: 194px;
 		float: center;
+		min-width: 768px;
+		min-height: 194px;
+		margin-top: -14px;
 	}
 	.header-index .container-center{
 		text-align: center;
@@ -321,6 +330,81 @@
 		text-align: center;
 		width: 25%;
 	}
+	/* start login */
+	#login-title{
+		line-height: 53px;
+		height: 160px;
+	}
+	#login-info-right {
+		width: 390px
+	}
+	#form-register-right #terms {
+		margin-top: 0px;
+	}
+	#form-register-right p {
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	#form-register #form-register-right {
+		width: 100%;
+	}
+	#form-register{
+		height: 970px;
+	}
+	#myModal2{
+		width: 560px;
+		height: 345px;
+		display: none;
+	}
+	#myModal2 .modal-body{
+		max-height: 311px;
+	}
+	
+	#myModal{
+		width: 560px;
+		height: 345px;
+		display: none;
+	}
+	#myModal .modal-body{
+		max-height: 311px;
+	}
+	#shop-info1 {
+		height: 470px;
+	}
+	#shop-info1 .div1{
+		height: 290px;
+	}
+	#shop-info2 {
+		height: 440px;
+	}
+	#shop-info2 .div1 {
+		height: 290px;
+	}
+	#shop-info3 .div1 {
+		height: 240px;
+	}
+	#shop-info3 .shop-info-text {
+		margin-bottom: 10px;
+	}
+	#shop-info4 {
+		height: 460px;
+	}
+	#shop-info4 .div1 {
+		height: 280px;
+	}
+	#shop-info5 .div1 {
+		height: 270px;
+	}
+	#shop-info5 .shop-info-text {
+		margin-bottom: 10px;
+	}
+	#shop-info6 {
+		height: 460px;
+	}
+	#shop-info6 .div1 {
+		height: 280px;
+	}
+	
 	
 }
 @media(min-width: 807px){

@@ -127,6 +127,9 @@
 	.container-center{
 		width: 100%;
 	}
+	.container-center-title{
+		width: 459px;
+	}
 	.header{
 		height: 61px;
 	}
@@ -134,16 +137,17 @@
 		right: 20px;
 	}
 	.header-index{
-		-moz-background-size:100% 200px; /* Firefox 3.6 */
-		background-size:100% 200px;
+		-moz-background-size:100% 194px; /* Firefox 3.6 */
+		background-size:100% 194px;
 		background-repeat:no-repeat;
-		height: 200px;
+		height: 194px;
 	}
 	.header-index  #banner-lady{
-		width: 355px;
-		height: 200px;
-		margin-left: 114px;
 		margin-top: -24px;
+		min-width: 568px;
+		min-height: 194px;
+		max-width: 568px;
+		max-height: 194px;
 	}
 	.header-videos , .header-testimonials , .header-coaching, .header-press, .header-training, .header-about, .header-shop{
 		-moz-background-size:100% 54px; /* Firefox 3.6 */
@@ -270,6 +274,12 @@
 		height: 125px !important;
 	}
 	/*last modification here*/
+	#carousel-video .image_carousel .container img {
+		width: 256px;
+		height: 147px;
+		margin-top: 30px;
+		margin-left: 0px;
+	}
 	.caroufredsel_wrapper {
 		width: 377px !important;
 	}
@@ -286,7 +296,7 @@
 		left: 20px;
 	}
 	.item-center {
-		margin-left: 57px;
+		margin-left: 0px;
 	}
 	#index-info2 {
 		height: 88px;
@@ -338,7 +348,8 @@
 		background-size: 100% 80px;
 		height: 80px;
 	}
-	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, #blog-title, #contact-title{
+	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, 
+	#blog-title, #contact-title, #login-title, #sign-up-title{
 		height: 45px;
 	}
 	.italic-sans {
@@ -463,9 +474,87 @@
 		width: 33%;
 	}
 	/* videos */
-	.header-main p {
-		margin-right: 75px;
+	
+	#login-info-right , #login-info-left{
+		width: 50%
+	}
+	#form-login .form-input {
+		width: 230px !important;
+	}
+	#form-login #forgot {
+		left: 20px;
+	}
+	#frame-video {
+		width: 100%;
+		height:450px;
+	}
+	#carousel-video a.prev, #carousel-video a.next {
+		top: 585px;
+	}
+	#form-register-right #terms {
+		margin-top: 0px;
+	}
+	#form-register-right p {
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	#form-register #form-register-right {
+		width: 100%;
+	}
+	#form-register{
+		height: 1000px;
+	}
+	#form-register .form-input{
+		width: 200px !important;
+	}
+	#form-register .select-small {
+		width: 215px !important;
+	}
+	#myModal2{
+		width: 513px;
+		height: 345px;
+		display: none;
+	}
+	#myModal2 .modal-body{
+		max-height: 311px;
+	}
+	#myModal{
+		width: 513px;
+		display: none;
+	}
+	#cart table {
+		width: 530px;
 	}
 	
+	.span12 .shop-left{
+		width: 100%;
+	}
+	.span12 .shop-right{
+		width: 100%;
+	}
+	#shop-info3 {
+		height: 663px;
+	}
+	#shop-info4 {
+		height: 588px;
+	}
+	#shop-info5 {
+		height: 600px;
+	}
+	#shop-info6 {
+		height: auto;
+	}
 	
+	#member1, #member2{
+	width: 50%;;
+	}
+	#member3{
+		width: 50%;
+	}
+	#member-select{
+		margin-top: 411px !important;
+	}
+	#member-continue{
+		margin-top: 355px;
+	}
 }

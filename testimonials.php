@@ -16,7 +16,7 @@
 					<div class="row-fluid ">
 						<div class="span12 info">
 							<p class="testimonials-title">
-								<span class="testimonials-gray subtitle">Vanessa</span> <span class="testimonials-light-gray subtitle">Villalovos|</span><span class="info">Actress </span>
+								<span class="testimonials-gray subtitle">Vanessa</span> <span class="testimonials-light-gray subtitle">Villalovos</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Actress </span>
 							</p>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 					<div class="row-fluid" >
 						<div id="span12 info">
 							<p class="testimonials-title">
-								<span class="testimonials-gray subtitle">Pernille</span> <span class="testimonials-light-gray subtitle">Trojgaard|</span><span class="info">Actress </span>
+								<span class="testimonials-gray subtitle">Pernille</span> <span class="testimonials-light-gray subtitle">Trojgaard</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Actress </span>
 							</p>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 					<div class="row-fluid" >
 						<div id="span12 info">
 							<p class="testimonials-title">
-								<span class="testimonials-gray subtitle">Michelle</span> <span class="testimonials-light-gray subtitle">Krusiec|</span><span class="info">Actress </span>
+								<span class="testimonials-gray subtitle">Michelle</span> <span class="testimonials-light-gray subtitle">Krusiec</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Actress </span>
 							</p>
 						</div>
 					</div>
@@ -101,7 +101,7 @@
 					<div class="row-fluid">
 						<div id="span12 info">
 							<p class="testimonials-title">
-								<span class="testimonials-gray subtitle">Camila</span> <span class="testimonials-light-gray subtitle">Rantsen|</span><span class="info">Actress </span>
+								<span class="testimonials-gray subtitle">Camila</span> <span class="testimonials-light-gray subtitle">Rantsen</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Actress </span>
 							</p>
 						</div>
 					</div>
@@ -131,7 +131,7 @@
 					<div class="row-fluid">
 						<div id="span12 info">
 							<p class="testimonials-title">
-								<span class="h1-gray subtitle">Kendell</span> <span class="info-gray subtitle">Hogan|</span><span class="info">Crunch, Regional Group Fitness Director-West Coast </span>
+								<span class="h1-gray subtitle">Kendell</span> <span class="info-gray subtitle">Hogan</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Crunch, Regional Group Fitness Director-West Coast </span>
 							</p>
 						</div>
 					</div>
@@ -159,7 +159,7 @@
 					<div class="row-fluid">
 						<div id="span12 info">
 							<p class="testimonials-title">
-								<span class="h1-gray subtitle">Keith</span> <span class="info-gray subtitle">Irace|</span><span class="info">Equinox, Area Manager for Group Fitness/California</span>
+								<span class="h1-gray subtitle">Keith</span> <span class="info-gray subtitle">Irace</span><span class="testimonials-light-gray subtitle-divide">|</span><span class="info">Equinox, Area Manager for Group Fitness/California</span>
 							</p>
 						</div>
 					</div>

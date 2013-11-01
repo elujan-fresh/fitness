@@ -1,3 +1,9 @@
+#carousel-video .image_carousel .container img {
+	width: 256px;
+	height: 147px;
+	margin-top: 30px;
+	margin-left: 12px;
+}
 .image_carousel {
 	padding: 15px 0 15px 40px;
 	position: relative;

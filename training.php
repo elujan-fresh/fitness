@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 		<div class="row-fluid">
 			<div class="span12 header-main">
-				<div class="container-center right">
+				<div class="container-center-title right">
 					<p >TRAIN. HARD.</p>
 				</div>
 			</div>
@@ -188,16 +188,15 @@
 		<div class="container-center">
 				<div class="row-fluid" id="training-publicity">
 					<div class="span6 left">
-						<img src="img/index/image.jpg" border="0" usemap="#Map" />
-                        <map name="Map">
-                          <area shape="circle" coords="434,236,15" href="coaching.php">
-                        </map>
+						<a href="coaching.php">
+							<img src="img/index/image.jpg" border="0" />
+						</a>
+                       
                   </div>
 					<div class="span6 right">
-						<img src="img/training/loud-fitness-training_26.png" border="0" usemap="#Map2" />
-                        <map name="Map2">
-                          <area shape="circle" coords="438,239,15" href="register.php">
-                        </map>
+						<a href="register.php">
+							<img src="img/training/loud-fitness-training_26.png" border="0" />
+						</a>
                     </div>
 				</div>
 			</div>

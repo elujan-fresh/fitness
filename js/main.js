@@ -1,21 +1,5 @@
 $(document).ready(function(){
-	/*$('.slider1').bxSlider({
-		slideWidth: 365,
-		minSlides: 3,
-		maxSlides: 3,
-		//slideMargin: 10,
-		pager: false
-	});
-	$('#welcome-footer').find('.bx-prev').append('<img src="img/index/arrow_left.png" id="arrow-left" />');
-	$('#welcome-footer').find('.bx-next').append('<img src="img/index/arrow_right.png" id="arrow-right" />');
-	
-	$('#video-slider').find('.bx-prev').append('<img src="img/index/arrow_left.png" id="arrow-left-slider" />');
-	$('#video-slider').find('.bx-next').append('<img src="img/index/arrow_right.png" id="arrow-right-slider" />');
-	$('.bxslider').bxSlider({
-	  mode: 'fade',
-	  captions: true
-	}); */
-	
+	var count=0;
 	$(document).on('click', '.play_video', function(event) {
 		event.preventDefault();
 		$("#frame-video").attr("src",$(this).find("input").val());
@@ -80,7 +64,34 @@ $(document).ready(function(){
 		});
 	}
 
+	$("#form-login").validate();
+	$("#form-forgot").validate();
+	$("#register-form").validate();
+	$("#form-join-footer").validate();
+	jQuery.extend(jQuery.validator.messages, {
+		equalTo: "Confirm password must be same.",
+	});
 	
+	setInterval(function(){
+		count++;
+		if(count==1){
+			$("#banner-lady").attr("src","img/index/banner1.jpg");
+			$("#location-banner-lady").attr("href","index.php");
+		}
+		if(count==2){
+			$("#banner-lady").attr("src","img/index/banner2.jpg");
+			$("#location-banner-lady").attr("href","coaching.php");
+		}
+		if(count==3){
+			$("#banner-lady").attr("src","img/index/banner3.jpg");
+		    $("#location-banner-lady").attr("href","training.php");
+			count=0;
+		}
+	},5000);
+	
+	function myFunction(){
+		console.log("lala");
+	}
 });
 
 	$( window ).resize(function() {
@@ -120,7 +131,28 @@ $(document).ready(function(){
 		}
 	});
 
-
-
-
+	$(document).on("click","#forgot", function(){
+		$('#myModal').modal("show");
+	});
+	$(document).on("click","#payment-terms", function(){
+		$('#myModal2').modal("show");
+	});
+	$(document).on("click","#banner-button1", function(event){
+		$("#banner-lady").attr("src","img/index/banner1.jpg");
+		$("#location-banner-lady").attr("href","index.php");
+		event.preventDefault();
+		event.stopPropagation();
+	});
+	$(document).on("click","#banner-button2", function(event){
+		$("#banner-lady").attr("src","img/index/banner2.jpg");
+		$("#location-banner-lady").attr("href","coaching.php");
+		event.preventDefault();
+		event.stopPropagation();
+	});
+	$(document).on("click","#banner-button3", function(event){
+		$("#banner-lady").attr("src","img/index/banner3.jpg");
+		$("#location-banner-lady").attr("href","training.php");
+		event.preventDefault();
+		event.stopPropagation();
+	});
 

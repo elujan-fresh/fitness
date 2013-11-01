@@ -23,12 +23,11 @@
 		<link rel="stylesheet" href="css/media380.css" media="all">
 		<link rel="stylesheet" href="css/media320.css" media="all">
 		<link rel="stylesheet" href="css/media240.css" media="all">
-		<!--<link href="css/jquery.bxslider.css" rel="stylesheet" />-->
+
 		<script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
-		<!-- include jQuery + carouFredSel plugin -->
-		<script type="text/javascript" language="javascript" src="js/vendor/jquery-1.8.2.min.js"></script>
 		<script type="text/javascript" language="javascript" src="js/vendor/jquery.carouFredSel-6.2.1-packed.js"></script>
+		<script type="text/javascript" language="javascript" src="js/vendor/jquery_validate.js"></script>
 
 
 		<script src="js/main.js"></script>
@@ -40,32 +39,11 @@
 					<a href="index.php" >
 						<img src="img/header/logo.png" id="header-logo"/>
 					</a>
-                  <p id="member-login">
-                        MEMBER LOGIN
-                  </p>
-				  <div id="container-form-login">
-					<form id="form-login">
-						<div id="container-form-login-top">
-							<p class="orange" id="form-login-title">Membership Website Login<p>
-							
-								<p class="center"><input type="text" class="form-input" placeholder="EMAIL ADDRESS" ></p>
-								<p class="center"><input type="text" class="form-input" placeholder="PASSWORD" id="form-login-password"></p>
-								<p class="left" id="login-info1">
-									<input type="checkbox" name="remember" id="remember_me" value="y"/>
-									<span id="remember-me"class="orange">Remember Me</span><br />
-									<span id="forgot"><a href="" class="orange"><u>Forget Password?</u></a></span>
-									<input type="submit" class="form-submit" value="LOGIN">
-								</p>
-								
-								<p class="center">
-									<input type="submit" class="form-submit-register" value="">
-								</p>
-							
-
-						</div>
-						<div id="container-form-login-bottom"></div>
-					</form>
-				  </div>
+					<a href="login.php">
+					  <p id="member-login">
+							MEMBER LOGIN
+					  </p>
+					</a>
                 </div>
             </div>
             

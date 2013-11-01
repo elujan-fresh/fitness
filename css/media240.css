@@ -169,6 +169,9 @@
 	.container-center{
 		width: 100%;
 	}
+	.container-center-title{
+		width: 180px;
+	}
 	.column{
 		width: 50%;
 	}
@@ -264,10 +267,12 @@
 	}
 	
 	.header-index #banner-lady {
-		width: 100px;
-		height: 85px;
-		margin-left: 72px;
+		min-width: 210px;
+		min-height: 85px;
+		max-width: 210px;
+		max-height: 85px;
 		margin-top: -24px;
+		margin-left: 30px;
 	}
 	.header-index  #banner-points{
 		width: 31.5px;
@@ -354,7 +359,13 @@
 		height: 100px;
 	}
 	.item-center {
-		margin-left: 7px;
+		margin-left: 11px;
+	}
+	#carousel-video .image_carousel .container img {
+		width: 100px;
+		height: 100px;
+		margin-top: 0px;
+		margin-left: 0px;
 	}
 	#footer .container-center p {
 		top: -5px;
@@ -410,7 +421,8 @@
 		background-size: 100% 80px;
 		height: 80px;
 	}
-	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, #blog-title, #contact-title{
+	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title,
+	#blog-title, #contact-title, #login-title, #sign-up-title{
 		height: 45px;
 	}
 	.italic-sans {
@@ -557,8 +569,212 @@
 	#carousel-video a.prev,#carousel-video a.next {
 		top: 250px;
 	}
-	.header-main p {
-		margin-right: 25px;
+	#login-info-left{
+		width: 100%;
+		text-align: left;
+	}
+	#login-info-right{
+		width: 100%;
+		text-align: left;
+	}
+	#form-login #forgot {
+		left: 20px;
+	}
+	#login-info-right .login-info-right-p {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	#login-title {
+		height: 105px;
+		line-height: 30px;
 	}
 	
+	#login-info-left{
+		width: 100%;
+		text-align: left;
+	}
+	#login-info-right{
+		width: 100%;
+		text-align: left;
+	}
+	#form-login #forgot {
+		left: 20px;
+	}
+	#login-info-right .login-info-right-p {
+		width: 100%;
+		float: none;
+		text-align: left;
+	}
+	#login-info {
+		height: 470px;
+	}
+	#form-login .form-input {
+		width: 160px !important;
+	}
+	#form-login .form-submit-register {
+		width: 190px !important;
+		height: 33px;
+		background-image: url(../img/register2.jpg);
+		margin-top: 5px;
+	}
+	#form-logos-table{
+		width: 88% !important;
+	}
+	
+	#form-register-right #terms {
+		margin-top: 0px;
+	}
+	#form-register-right p {
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	#form-register #form-register-right {
+		width: 100%;
+	}
+	#form-register{
+		height: 2280px;
+	}
+	#form-register .form-input{
+		width: 140px !important;
+	}
+	#form-register .select-small {
+		width: 155px !important;
+	}
+	.hide480{
+		display: none;
+	}
+	.show480{
+		display: block;
+	}
+	#register-form .error {
+		margin-left: 20px;
+		margin-top: 0px;
+		width: 360px;
+	}
+	#form-register .form-submit {
+		float: none;
+		margin-left: 20px;
+	}
+	#show-380-br{
+		display: block;
+	}
+	#payment-terms{
+		margin-left: 20px;
+	}
+	#register .info-bold {
+		font-size: 10pt;
+	}
+	#register .info-semibold-regular {
+		font-size: 8pt;
+	}
+	#register .info-semibold-black {
+		font-size: 8pt;
+	}
+	#myModal2{
+		width: 202px;
+		height: 345px;
+		display: none;
+	}
+	#myModal2 .modal-body{
+		max-height: 311px;
+	}
+	
+	#myModal{
+		width: 200px;
+		height: 250px;
+		display: none;
+	}
+	.show-380{
+		display: block;
+	}
+	#form-forgot .form-submit {
+		left: 135px;
+		top: 189px;
+	}
+	#form-forgot .error{
+		width: 123px;
+		
+	}
+	#form-forgot .form-input {
+		width: 160px !important;
+	}
+	
+	#cart table {
+		width: 130px;
+	}
+	#cart .regular{
+		font-size: 8pt;
+	}
+	#cart .orange{
+		font-size: 8pt;
+	}
+	#cart .form-input {
+		width: 180px !important; 
+	}
+	.hide-320{
+		display: none;
+	}
+	.show-320{
+		display: block;
+	}
+	
+	.shop-left{
+		width: 100%;
+	}
+	.shop-right{
+		width: 100%;
+	}
+	.shop-left-info{
+		width: 100%;
+	}
+	.shop-right-info{
+		width: 100%;
+	}
+	#shop-info1 {
+		height: auto;
+	}
+	#shop-info1 .div1{
+		height: auto;
+	}
+	#shop-info2{
+		height: auto;
+	}
+	#shop-info2 .div1{
+		height: auto;
+	}
+	#shop-info3 {
+		height: auto;
+	}
+	#shop-info3 .div1{
+		height: auto;
+	}
+	#shop-info4 .div1 {
+		height: auto;
+	}
+	#shop-info4 {
+		height: auto;;
+	}
+	#shop-info5 {
+		height: auto;
+	}
+	#shop-info5 .div1 {
+		height: auto;
+	}
+	#shop-info6 {
+		height: auto;
+	}
+	
+	#register-left, #register-right{
+		width: 100%;
+	}
+	#member1, #member2{
+	width: 100%;;
+	}
+	#member3{
+		width: 100%;
+	}
+	#member-select{
+		margin-top: 411px !important;
+	}
 }

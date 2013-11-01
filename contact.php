@@ -18,8 +18,8 @@
 					<p class="orange" id="contact-name">
 						Tanja Djelevic
 					</p>
-					<p class="h1-blue" id="contact-mail">
-						info@loudfitness.com
+					<p  id="contact-mail">
+						<a href="mailto:info@loudfitness.com" class="h1-blue">info@loudfitness.com</a>
 					</p>
 				</div>
 			</div>

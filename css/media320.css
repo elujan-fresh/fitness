@@ -123,6 +123,9 @@
 	.container-center{
 		width: 100%;
 	}
+	.container-center-title{
+		width: 250px;
+	}
 	.column{
 		width: 50%;
 	}
@@ -240,9 +243,10 @@
 	}
 	
 	.header-index #banner-lady {
-		width: 200px;
-		height: 150px;
-		margin-left: 49px;
+		min-width: 320px;
+		min-height: 150px;
+		max-width: 320px;
+		max-height: 150px;
 		margin-top: -24px;
 	}
 	.header-index  #banner-points{
@@ -295,6 +299,12 @@
 		margin-left: 2px;
 		margin-top: 3px;
 	}
+	#carousel-video .image_carousel .container img {
+		width: 256px;
+		height: 147px;
+		margin-top: 3px;
+		margin-left: 0px;
+	}
 	.caroufredsel_wrapper {
 		width: 185px !important;
 		height: 200px !important;
@@ -311,7 +321,7 @@
 		height: 155px;
 	}
 	.item-center {
-		margin-left: 6px;
+		margin-left: 27px;
 	}
 	a.prev, a.next {
 		width: 30px;
@@ -380,7 +390,8 @@
 		background-size: 100% 80px;
 		height: 80px;
 	}
-	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, #blog-title, #contact-title{
+	#about-title , #training-title, #coaching-title, #press-title, #videos-title,#testimonials-title, #shop-title, 
+	#blog-title, #contact-title, #login-title, #sign-up-title{
 		height: 45px;
 	}
 	.italic-sans {
@@ -525,8 +536,184 @@
 	#carousel-video a.prev,#carousel-video a.next {
 		top: 310px;
 	}
-	.header-main p {
-		margin-right: 25px;
+	#login-info-left{
+		width: 100%;
+		text-align: left;
+	}
+	#login-info-right{
+		width: 100%;
+		text-align: left;
+	}
+	#form-login #forgot {
+		left: 20px;
+	}
+	#login-info-right .login-info-right-p {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	#login-title {
+		height: 73px;
+		line-height: 30px;
 	}
 	
+	#login-info-left{
+		width: 100%;
+		text-align: left;
+	}
+	#login-info-right{
+		width: 100%;
+		text-align: left;
+	}
+	#form-login #forgot {
+		left: 20px;
+	}
+	#login-info-right .login-info-right-p {
+		width: 100%;
+		float: none;
+		text-align: left;
+	}
+	#login-info {
+		height: 370px;
+	}
+	
+	#form-register-right #terms {
+		margin-top: 0px;
+	}
+	#form-register-right p {
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	#form-register #form-register-right {
+		width: 100%;
+	}
+	#form-register{
+		height: 2000px;
+	}
+	#form-register .form-input{
+		width: 200px !important;
+	}
+	#form-register .select-small {
+		width: 215px !important;
+	}
+	.hide480{
+		display: none;
+	}
+	.show480{
+		display: block;
+	}
+	#register-form .error {
+		margin-left: 20px;
+		margin-top: 0px;
+		width: 360px;
+	}
+	#form-register .form-submit {
+		float: none;
+		margin-left: 20px;
+	}
+	#show-380-br{
+		display: block;
+	}
+	#payment-terms{
+		margin-left: 20px;
+	}
+	#myModal2{
+		width: 270px;
+		height: 345px;
+		display: none;
+	}
+	#myModal2 .modal-body{
+		max-height: 311px;
+	}
+	#myModal{
+		width: 270px;
+		height: 240px;
+		display: none;
+	}
+	.show-380{
+		display: block;
+	}
+	#form-forgot .form-submit {
+		left: 196px;
+		top: 170px;
+	}
+	#form-forgot .error{
+		width: 230px;
+		
+	}
+	#form-forgot .form-input {
+		width: 220px !important;
+	}
+	
+	#cart table {
+		width: 250px;
+	}
+	#cart .form-input {
+		width: 230px !important; 
+	}
+	.hide-320{
+		display: none;
+	}
+	.show-320{
+		display: block;
+	}
+	
+	.span12 .shop-left{
+		width: 100%;
+	}
+	.span12 .shop-right{
+		width: 100%;
+	}
+	.span12 .shop-left-info{
+		width: 100%;
+	}
+	.span12 .shop-right-info{
+		width: 100%;
+	}
+	#shop-info1 {
+		height: auto;
+	}
+	#shop-info1 .div1{
+		height: auto;
+	}
+	#shop-info2{
+		height: auto;
+	}
+	#shop-info2 .div1{
+		height: auto;
+	}
+	#shop-info3 {
+		height: auto;
+	}
+	#shop-info3 .div1{
+		height: auto;
+	}
+	#shop-info4 .div1 {
+		height: auto;
+	}
+	#shop-info4 {
+		height: auto;;
+	}
+	#shop-info5 {
+		height: auto;
+	}
+	#shop-info5 .div1 {
+		height: auto;
+	}
+	#shop-info6 {
+		height: auto;
+	}
+	
+	#register-left, #register-right{
+		width: 100%;
+	}
+	#member1, #member2{
+	width: 100%;;
+	}
+	#member3{
+		width: 100%;
+	}
+	#member-select{
+		margin-top: 411px !important;
+	}
 }
